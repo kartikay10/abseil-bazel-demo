@@ -1,0 +1,8 @@
+cc_test(
+    name = "tests",
+    srcs = glob(["**/*.cc"]),
+    deps = ["//main:retSquare",
+        "@gtest//:gtest",
+        "@gtest//:gtest_main",
+    ],
+)

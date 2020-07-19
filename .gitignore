@@ -1,0 +1,7 @@
+*.log
+/bazel-abseil-bazel-demo
+/bazel-bin
+/bazel-genfiles
+/bazel-out
+/bazel-testlogs
+
